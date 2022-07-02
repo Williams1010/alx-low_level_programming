@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- *	main - prints possible outcomes of three digits
- *	Return: 0 if (successful)
+ *main - prints possible outcomes of three digits
+ *Return: 0 if (successful)
 */
 
 int main(void)
 {
-
 int n, m, l;
 
 for (n = 48; n < 58; n++)
@@ -22,9 +21,8 @@ putchar(n);
 putchar(m);
 putchar(l);
 if (n != 55 || m != 56)
-{
-putchar(',');
-putcher(' ');
+{															            putchar(',');
+putchar(' ');
 }
 }
 }
