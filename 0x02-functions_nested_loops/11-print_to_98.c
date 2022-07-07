@@ -1,22 +1,46 @@
-#include "main.h"
+#include "main.h"                                                                                           
+                                                                                                                                    
+/**                                                                                                                                 
+ *upperband - print greater than 98                                                          
+ *@n: number to start from                                                                                                      
+ *Return: void                                                                                                                      
+ *    */                                                                                                                                 
+void upperband(int n)                                                                                                               
 
-/**
- *print_times_table - prints time table
- *@n : times table to use
- *Description: prints the times table
- *Return:void
-*/
+{                                                                                                                                   
 
-void print_times_table(int n)
-{
+while (n > 98)                                         
 
-int a = 0, rep, b;
+{                                                                                                                                   
 
-if (n < 0 || n > 15)
-return;
+if (n >= 100)                                                                                                                       
 
-while (a <= n)
-{
-for (b = 0; b <= n; b++)
-{
-rep = a * b;
+{                                                                                                                                   
+
+_putchar(n / 100 + 48);                                                                                                             
+
+_putchar((n % 100) / 10 + 48);                                                                                                      
+
+_putchar((n % 100) % 10 + 48);                                                                                                      
+
+}                                                                                                                                   
+
+else                                                                                                                                
+
+{                                                                                                                                   
+
+_putchar((n % 100) / 10 + 48);                                                                                                      
+
+_putchar((n % 100) % 10 + 48);                                                                                                      
+
+}                                                                                                                                   
+
+_putchar(',');                                                                                                                      
+
+_putchar(' ');                                                                                                                      
+
+n--;                                                                                                                                
+
+}                                                                                                                                   
+
+}
