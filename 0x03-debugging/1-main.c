@@ -1,12 +1,21 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- *_isdigit - prints the code
- *@c: int to be checked
- *Return: successful digit is 1 is 0 otherwise
+ *main - causes an infinite loop
+ *Return: 0
  */
 
-int _isdigit(int c)
+int main(void)
+
 {
-return (c >= '0' && c <= '9');
+int i;
+printf("Infinite loop incoming :(\n");
+i = 0;
+
+while (i < 10)
+{
+putchar(i);
+}
+printf("Infinite loop avoided! \\o/\n");
+return (0);
 }
