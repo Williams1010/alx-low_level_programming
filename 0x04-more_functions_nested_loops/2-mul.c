@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- *ul -> multiplying 2 numbers
- *@a: interger param1
- *@b: integer param 2
- *Return: success and intiger
+ *mul - retuens the results of the parameters
+ *@a: int type number
+ *@b: int type number
+ *Return: 0
  */
-int mul('int a, int b')
+
+int mul(int a, int b)
 
 {
 
