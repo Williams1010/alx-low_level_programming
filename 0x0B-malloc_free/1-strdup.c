@@ -1,15 +1,11 @@
 #include <stdlib.h>
-
 #include "main.h"
-
 /**
  *_strdup - Entry point
  *@str: string we need to duplicate
  *Return: Return success.
  **/
-
 char *_strdup(char *str)
-
 {
 char *a;
 int i, c;
