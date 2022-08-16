@@ -9,8 +9,11 @@
 void free_listp(listp_t **head)
 
 {
+
 listp_t *temp;
+
 listp_t *curr;
+
 if (head != NULL)
 {
 curr = *head;
@@ -42,7 +45,7 @@ if (new == NULL)
 exit(98);
 new->p = (void *)head;
 new->next = hptr;
-hptr = new
+hptr = new;
 add = hptr;
 while (add->next != NULL)
 {
